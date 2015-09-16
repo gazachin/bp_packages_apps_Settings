@@ -25,7 +25,6 @@
         <PreferenceScreen
             android:key="omniswitch"
             android:id="@+id/omniswitch"
-            android:icon="@drawable/ic_dt_omniswitch"
             android:title="@string/omniswitch_settings_title"
             android:fragment="com.android.settings.bliss.OmniSwitch" />
 

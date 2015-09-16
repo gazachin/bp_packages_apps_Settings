@@ -449,7 +449,6 @@
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_summary">Enable various network traffic options in status bar</string>
     <string name="show_network_traffic_state">Status bar traffic monitor</string>
     <string name="show_network_traffic_unit">Display unit</string>
     <string name="show_network_traffic_frequency">Update interval</string>
@@ -756,9 +755,8 @@
     <string name="notif_system_icons_show_ticker_title">Notification ticker</string>
     <string name="notif_system_icons_show_ticker_summary">Notification text animation in the status bar</string>
 
-    <string name="status_bar_notif_system_icons_settings_title">Notifications &amp; system icons</string>
+    <string name="status_bar_notif_system_icons_settings_title">Notification Icon Colors</string>
     <!-- <string name="status_bar_notif_system_icons_settings_title_phone">Notif. &amp; system icons</string> -->
-    <string name="status_bar_notif_system_icons_settings_summary">Customize the notifications &amp; system icons</string>
 
     <!-- Status bar Header -->
     <string name="status_bar_expanded_header_settings_title">Status bar header</string>
@@ -769,8 +767,7 @@
     <string name="expanded_header_show_weather_location_summary">Enable to show the location</string>
 
     <!-- Status bar battery status settings -->
-    <string name="status_bar_battery_status_settings_title">Battery status</string>
-    <string name="status_bar_battery_status_settings_summary">Customize the battery status</string>
+    <string name="status_bar_battery_status_settings_title">Battery Settings</string>
     <string name="battery_status_cat_circle_options_title">Customize the circle</string>
     <string name="battery_status_style_title">Indicator</string>
     <string name="battery_status_style_icon_portrait">Icon portrait</string>
@@ -796,8 +793,7 @@
     <string name="battery_status_text_color_title">Text</string>
 
     <!-- Status bar signals icon settings  -->
-    <string name="status_bar_signal_settings_title">Mobile &amp; Wi-Fi network icons</string>
-    <string name="status_bar_signal_settings_summary">Customize the status bar mobile and wi-fi network icons</string>
+    <string name="status_bar_signal_settings_title">Mobile Network Colors</string>
     <string name="signal_wifi_show_activity_title">Show network activity</string>
     <string name="signal_wifi_show_activity_summary">Enable to show the network activity</string>
     <string name="cat_network_icons_title">Network icons</string>
