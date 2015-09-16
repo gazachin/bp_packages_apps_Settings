@@ -65,9 +65,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment
 
     private static final String VISUALIZER_CATEGORY = "visualizer";
 
+    private static final String CARRIERLABEL_ON_LOCKSCREEN="lock_screen_hide_carrier";
+
     private static final String KEY_LONG_PRESS_LOCK_ICON_TORCH = "long_press_lock_icon_torch";
 
     private PreferenceScreen mLockScreen;
+    private SwitchPreference mCarrierLabelOnLockScreen;
     private SwitchPreference mLongClickTorch;
 
     private Context mContext;
@@ -113,6 +116,19 @@ public class LockScreenSettings extends SettingsPreferenceFragment
                 generalCategory.removePreference(mLongClickTorch);
             }
         }
+
+        //CarrierLabel on LockScreen
+        mCarrierLabelOnLockScreen = (SwitchPreference) findPreference(CARRIERLABEL_ON_LOCKSCREEN);
+        if (!Utils.isWifiOnly(getActivity())) {
+            mCarrierLabelOnLockScreen.setOnPreferenceChangeListener(this);
+
+            boolean hideCarrierLabelOnLS = Settings.System.getInt(
+                    getActivity().getContentResolver(),
+                    Settings.System.LOCK_SCREEN_HIDE_CARRIER, 0) == 1;
+            mCarrierLabelOnLockScreen.setChecked(hideCarrierLabelOnLS);
+        } else {
+            prefSet.removePreference(mCarrierLabelOnLockScreen);
+        }
     }
 
     @Override
@@ -136,6 +152,15 @@ public class LockScreenSettings extends SettingsPreferenceFragment
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        final String key = preference.getKey();
+        if (preference == mCarrierLabelOnLockScreen) {
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.LOCK_SCREEN_HIDE_CARRIER,
+                    (Boolean) objValue ? 1 : 0);
+            Helpers.restartSystemUI();
+            return true;
+        }
         return false;
     }
 
