@@ -20,6 +20,11 @@
     android:title="@string/status_bar_title">
 
     <PreferenceScreen
+            android:key="carrier_options"
+            android:fragment="com.android.settings.bliss.CarrierLabel"
+            android:title="@string/carrier_options" />
+
+    <PreferenceScreen
             android:fragment="com.android.settings.bliss.StatusBarClockStyle"
             android:key="clock_style_pref"
             android:title="@string/status_bar_clock" />
@@ -86,17 +91,7 @@
             android:summary="@string/status_bar_toggle_brightness_summary"
             android:defaultValue="false" />
 
-    <PreferenceCategory
-            android:title="@string/carrier_options_category_title">
-
-        <PreferenceScreen
-            android:key="carrier_options"
-            android:fragment="com.android.settings.bliss.CarrierLabel"
-            android:title="@string/carrier_options" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
+       <PreferenceCategory
             android:title="@string/status_bar_logo_category_title">
 
         <!-- Status bar Bliss logo -->

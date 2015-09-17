@@ -113,14 +113,12 @@
         <PreferenceScreen
             android:key="qs_colors"
             android:title="@string/qs_colors_title"
-            android:summary="@string/qs_colors_summary"
             android:fragment="com.android.settings.bliss.QSColors" />
 
         <!-- Notification colors -->
         <PreferenceScreen
             android:id="@+id/notification_colors"
             android:title="@string/cat_colors_title"
-            android:summary="@string/notification_color_settings_summary"
             android:fragment="com.android.settings.bliss.NotificationColorSettings" />
 
         <com.android.settings.cyanogenmod.SecureSettingSwitchPreference

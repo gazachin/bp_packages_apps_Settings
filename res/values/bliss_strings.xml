@@ -51,8 +51,8 @@
     <string name="weather1_color_title">Weather line 1 color</string>
     <string name="weather2_color_title">Weather line 2 color</string>
     <string name="colors_title">Colors</string>
-    <string name="cat_colors_title">Customize notification colors</string>
-    <string name="category_colors_title">Customize colors</string>
+    <string name="cat_colors_title">Notification Colors</string>
+    <string name="category_colors_title">Customize Colors</string>
     <string name="icons_title">Icons</string>
     <string name="text_title">Text</string>
     <string name="background_title">Background</string>
@@ -386,7 +386,7 @@
     <string name="shortcut_picker_icon_type_custom_title">Gallery</string>
 
     <!-- Navigation bar -->
-    <string name="nav_bar_title">Navigation bar</string>
+    <string name="nav_bar_title">Navigation Bar</string>
     <string name="navbar_enable_bar_title">Navigation bar buttons</string>
     <string name="navbar_enable_bar_summary">Enable on-screen nav bar buttons</string>
     <string name="navbar_style_dimen_title">Nav bar dimensions</string>
@@ -406,7 +406,7 @@
     <string name="navigation_bar_size_0_dp">0 dp (off)</string>
 
     <!-- SlimDim -->
-    <string name="dim_nav_buttons_category">SlimDim</string>
+    <string name="dim_nav_buttons_category">Slim Dim</string>
     <string name="dim_nav_buttons_title">Dim buttons after inactivity</string>
     <string name="dim_nav_buttons_summary">Dim navigation bar buttons after not interacting with navigation bar for a specified time</string>
     <string name="dim_nav_buttons_timeout_title">Timeout before dimming</string>
@@ -447,7 +447,7 @@
     <string name="partition_info_used_of">/</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_title">Network Traffic</string>
     <string name="show_network_traffic_state">Status bar traffic monitor</string>
     <string name="show_network_traffic_unit">Display unit</string>
     <string name="show_network_traffic_frequency">Update interval</string>
@@ -473,7 +473,7 @@
     <string name="status_bar_show_wifi_ssid_summary">Show the Wi-Fi SSID of a connected network in the status bar</string>
 
     <!-- Recents panel settings -->
-    <string name="recents_options_title">Recents options</string>
+    <string name="recents_options_title">Recents Options</string>
     <string name="recents_panel_settings">Recents panel settings</string>
     <string name="show_clear_all_recents_button_title">Clear All button tweaks</string>
     <string name="show_clear_all_recents_button_summary">Show clear all button on recents panel</string>
@@ -492,7 +492,7 @@
     <string name="optional_recents">Optional recents</string>
 
     <!-- OmniSwitch -->
-    <string name="omniswitch_settings_title">OmniSwitch</string>
+    <string name="omniswitch_settings_title">Omni Switch</string>
     <string name="omniswitch_category">OmniSwitch</string>
     <string name="recents_use_omniswitch_title">Use for recents</string>
     <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of default recents view</string>
@@ -502,7 +502,7 @@
     <string name="omniswitch_first_time_message">Make sure you have enabled OmniSwitch. You can do this by using \"Settings\" below.</string>
 
     <!-- Color Picker -->
-    <string name="dialog_color_picker_title">Color picker</string>
+    <string name="dialog_color_picker_title">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="palette_bliss_title">Bliss</string>
     <string name="palette_material_title">Material</string>
@@ -516,11 +516,11 @@
     <string name="set">Set</string>
 
     <!-- Animations Category -->
-    <string name="animation_settings_category">Display and animations</string>
-    <string name="animation_settings_title">Display and animations</string>
+    <string name="animation_settings_category">Display And Animations</string>
+    <string name="animation_settings_title">Display And Animations</string>
 
     <!-- Toast animations -->
-    <string name="toast_animation_title">Toast animations</string>
+    <string name="toast_animation_title">Toast Animations</string>
     <string name="toast_animation_summary">Select and preview system toast animation</string>
     <string name="toast_none_animation">None</string>
     <string name="toast_default_animation">Default</string>
@@ -540,7 +540,7 @@
     <string name="toast_SlideRightLeft_animation">Slide right to left</string>
 
     <!-- Toast Icons -->
-    <string name="toast_icon_title">Toast icon</string>
+    <string name="toast_icon_title">Toast Icon</string>
 
     <!-- Animation Controls -->
     <string name="title_animation_controls">System animations</string>
@@ -587,8 +587,7 @@
     <string name="listview_bounce_interpolator">Bounce</string>
 
     <!-- IME animations -->
-    <string name="ime_animation_title">IME animations</string>
-    <string name="ime_animation_summary">Set custom animations for system keyboard</string>
+    <string name="ime_animation_title">IME Animations</string>
     <string name="animation_settings_reset_message">Reset animations to default?</string>
     <string name="animation_default">Default</string>
     <string name="animation_fade">Fade</string>
@@ -632,15 +631,14 @@
     <string name="volume_steps_5">5</string>
 
     <!-- Option to enable/disable scrolling cache -->
-    <string name="pref_scrollingcache_title">Scrolling cache</string>
-    <string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>
+    <string name="pref_scrollingcache_title">Scrolling Cache</string>
     <string name="pref_scrollingcache_force_enable">Force enable</string>
     <string name="pref_scrollingcache_default_enable">Default enable</string>
     <string name="pref_scrollingcache_default_disable">Default disable</string>
     <string name="pref_scrollingcache_force_disable">Force disable</string>
 
     <!-- Custom Over scroll Settings -->
-    <string name="ui_overscroll_title">Over scrolling effects</string>
+    <string name="ui_overscroll_title">Over Scrolling Effects</string>
     <string name="overscroll_glow_title">Over scroll Color</string>
     <string name="edge_effect_title">Edge Glow effect</string>
     <string name="bounce_effect_title">Bounce effect</string>
@@ -653,11 +651,9 @@
     <string name="overscroll_title">Over scrolling effect</string>
     <string name="overscroll_summary">Choose how scrollable objects look when they overshoot</string>
     <string name="overscroll_weight_title">Over scrolling weight</string>
-    <string name="overscroll_weight_summary">Select the weight of the scrollable objects</string>
 
     <!-- Scrolling Animation Controls -->
-    <string name="scrolling_title">Scrolling modifiers</string>
-    <string name="scrolling_summary">View or change scrolling animations</string>
+    <string name="scrolling_title">Scrolling Modifiers</string>
     <string name="animation_fling_velocity_title">Fling velocity</string>
     <string name="animation_scroll_friction_title">Scroll friction</string>
     <string name="animation_overscroll_distance_title">Overscroll distance</string>
@@ -689,7 +685,7 @@
     <string name="navigation_ring_enable_title">Enable navigation rings</string>
 
     <!-- Heads Up -->
-    <string name="category_heads_up">Heads up</string>
+    <string name="category_heads_up">Heads Up</string>
     <string name="summary_heads_up_enabled">Notifications are enabled</string>
     <string name="summary_heads_up_disabled">Notifications are disabled</string>
     <string name="add_heads_up_package">Add app</string>
@@ -913,9 +909,8 @@
     <string name="notification_force_expand_summary">Force expanded notifications on all apps that support it</string>
 
     <!-- QS Custom Colors -->
-    <string name="qs_colors_title">Quick settings display options</string>
+    <string name="qs_colors_title">Quick Setting Mods</string>
     <string name="qs_color_options">Quick settings color options</string>
-    <string name="qs_colors_summary">Change background, icon and text colors for the tiles</string>
     <string name="qs_transparent_shade_title">Shade alpha</string>
     <string name="qs_transparent_shade_summary">Ability to apply color alpha value and make notification shade transparent</string>
     <string name="qs_color_switch_title">Custom color switch</string>
@@ -1009,8 +1004,8 @@
     <!-- Slim Shortcuts -->
     <string name="slim_shortcut_picker">Slim Actions</string>
 
-    <string name="qs_slim_action_title">SlimActions</string>
-    <string name="qs_slim_action_summary">Add and set the order of SlimActions for SlimAction tile</string>
+    <string name="qs_slim_action_title">Slim Actions</string>
+    <string name="qs_slim_action_summary">Set SlimActions for Tile</string>
 
     <!-- Captive Portal -->
     <string name="captive_portal_detection">Captive portal detection</string>
@@ -1307,7 +1302,6 @@
     <string name="status_bar_greeting_timeout_title">Greeting timeout</string>
 
     <!-- Show carrier label and custom -->
-    <string name="carrier_options_category_title">Status bar carrier label</string>
     <string name="carrier_options">Carrier Label</string>
     <string name="show_status_bar_carrier_title">Status bar carrier</string>
     <string name="show_status_bar_carrier_summary">Show carrier in status bar</string>
@@ -1690,7 +1684,6 @@
 
     <!-- Notification color settings -->
     <string name="notification_color_settings_title">Notification colors</string>
-    <string name="notification_color_settings_summary">Color change for Normal, Heads Up and lockscreen notifications</string>
     <string name="notification_media_bg_mode_title">Colorize the media background</string>
     <string name="notification_app_icon_bg_mode_title">Colorize the app icon background</string>
     <string name="notification_app_icon_color_mode_title">Colorize app icon</string>
