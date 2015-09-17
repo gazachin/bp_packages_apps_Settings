@@ -50,7 +50,7 @@
     <string name="ampm_color_title">AmPm color</string>
     <string name="weather1_color_title">Weather line 1 color</string>
     <string name="weather2_color_title">Weather line 2 color</string>
-    <string name="colors_title">LockScreen Colors</string>
+    <string name="colors_title">Colors</string>
     <string name="cat_colors_title">Customize notification colors</string>
     <string name="category_colors_title">Customize colors</string>
     <string name="icons_title">Icons</string>
@@ -139,7 +139,7 @@
     <string name="navigation_options">Navigation options</string>
 
     <!-- Breathing Notifications -->
-    <string name="breathing_notifications_title">Breathing notifications</string>
+    <string name="breathing_notifications_title">Breathing Notifications</string>
     <string name="sms_breath">Breathing SMS</string>
     <string name="sms_breath_summary">Will give your sms notifications a breathing effect in the status bar</string>
     <string name="title_missed_call_breath">Breathing Missed Call</string>
@@ -933,6 +933,7 @@
     <!-- Lock screen -->
     <string name="lock_screen_weather_settings_title">Weather Settings</string>
     <string name="lock_screen_color_settings_summary">Customize colors</string>
+    <string name="lock_screen_color_title">Lockscreen Colors</string>
 
     <!-- Weather settings -->
     <string name="weather_cat_notifications_title">Notifications</string>
