@@ -50,7 +50,7 @@
     <string name="ampm_color_title">AmPm color</string>
     <string name="weather1_color_title">Weather line 1 color</string>
     <string name="weather2_color_title">Weather line 2 color</string>
-    <string name="colors_title">Colors</string>
+    <string name="colors_title">LockScreen Colors</string>
     <string name="cat_colors_title">Customize notification colors</string>
     <string name="category_colors_title">Customize colors</string>
     <string name="icons_title">Icons</string>
@@ -98,8 +98,7 @@
     <string name="mod_version_default">Unknown</string>
 
     <!-- Download Center -->
-    <string name="download_category">Bliss downloads</string>
-    <string name="download_category_summary">Help to support Team Bliss</string>
+    <string name="download_category">Bliss Downloads</string>
     <string name="rom_category">Rom Download</string>
     <string name="gapps_category">Gapps packages</string>
     <string name="kernels_category">Kernel downloads</string>
@@ -932,8 +931,7 @@
     <string name="lockscreen_settings_title">Lock screen options</string>
 
     <!-- Lock screen -->
-    <string name="lock_screen_weather_settings_title">Weather</string>
-    <string name="lock_screen_weather_settings_summary">Customize Weather</string>
+    <string name="lock_screen_weather_settings_title">Weather Settings</string>
     <string name="lock_screen_color_settings_summary">Customize colors</string>
 
     <!-- Weather settings -->
@@ -970,8 +968,7 @@
 
     <!-- Lockscreen Shortcuts -->
     <string name="shortcuts_title">Shortcuts</string>
-    <string name="lockscreen_shortcuts_title">Middle shortcuts</string>
-    <string name="lockscreen_shortcuts_summary">View or change custom middle lock screen shortcuts</string>
+    <string name="lockscreen_shortcuts_title">Middle Shortcuts</string>
     <string name="lockscreen_shorcuts_longpress_title">Shortcuts longpress</string>
     <string name="lockscreen_shorcuts_longpress_summary">Open custom lock screen shortcuts on longpress</string>
     <string name="lockscreen_targets_message">Lock screen shortcuts</string>
@@ -986,7 +983,7 @@
     <string name="visualizer_category">Lock Screen Visualizer</string>
 
     <!-- LockClocK -->
-    <string name="lock_clock_title">Clock widget settings</string>
+    <string name="lock_clock_title">Clock Widget Settings</string>
     <string name="lock_clock_summary">View or change how the clock widget will be displayed</string>
 
     <!-- Storage Notification Enhancement -->
@@ -1718,8 +1715,7 @@
     <string name="reset_user_preferences_dialog">Are you sure you want to reset your preferences?</string>
 
     <!-- Lockscreen wallpaper -->
-    <string name="lockscreen_wallpaper_title">Wallpaper</string>
-    <string name="lockscreen_wallpaper_summary">Set lockscreen wallpaper</string>
+    <string name="lockscreen_wallpaper_title">LockScreen Wallpaper</string>
     <string name="lockscreen_wallpaper_set_title">Set lock screen wallpaper</string>
     <string name="lockscreen_wallpaper_clear_title">Clear lock screen wallpaper</string>
     <string name="reset_lockscreen_wallpaper">Set to default</string>

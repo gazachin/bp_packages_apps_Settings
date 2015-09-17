@@ -43,7 +43,6 @@
         <PreferenceScreen
                  android:key="lockscreen_shortcuts"
                  android:fragment="com.android.settings.bliss.dslv.ActionListViewSettings"
-                 android:summary="@string/lockscreen_shortcuts_summary"
                  android:title="@string/lockscreen_shortcuts_title">
              <extra android:name="actionMode" android:value="4" />
              <extra android:name="maxAllowedActions" android:value="10" />
@@ -55,8 +54,7 @@
         <PreferenceScreen
             android:key="cm_lockscreen_shortcuts"
             android:fragment="com.android.settings.cyanogenmod.LockscreenShortcuts"
-            android:title="@string/cm_lockscreen_shortcuts_title"
-            android:summary="@string/cm_lockscreen_shortcuts_summary" />
+            android:title="@string/cm_lockscreen_shortcuts_title" />
 
     </PreferenceCategory>
 
@@ -67,21 +65,18 @@
     <PreferenceScreen
         android:key="lock_screen_weather_settings"
         android:title="@string/lock_screen_weather_settings_title"
-        android:summary="@string/lock_screen_weather_settings_summary"
         android:fragment="com.android.settings.bliss.LockScreenWeatherSettings" />
 
     <PreferenceScreen
         android:key="lock_screen_color_settings"
         android:title="@string/colors_title"
-        android:summary="@string/lock_screen_color_settings_summary"
         android:fragment="com.android.settings.bliss.LockScreenColorSettings" />
 
     </PreferenceCategory>
 
         <PreferenceScreen
             android:key="lock_clock"
-            android:title="@string/lock_clock_title"
-            android:summary="@string/lock_clock_summary">
+            android:title="@string/lock_clock_title">
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="com.cyanogenmod.lockclock"
                     android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
@@ -102,7 +97,6 @@
         <PreferenceScreen
             android:key="lockscreen_wallpaper"
             android:title="@string/lockscreen_wallpaper_title"
-            android:summary="@string/lockscreen_wallpaper_summary"
             android:persistent="false"
             android:fragment="com.android.settings.bliss.LockscreenWallpaper">
         </PreferenceScreen>

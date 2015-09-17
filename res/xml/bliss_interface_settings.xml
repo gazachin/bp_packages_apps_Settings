@@ -89,7 +89,6 @@
     <PreferenceScreen
         android:key="download_center"
         android:fragment="com.android.settings.bliss.Download"
-        android:title="@string/download_category"
-        android:summary="@string/download_category_summary" />
+        android:title="@string/download_category" />
 
 </PreferenceScreen>
