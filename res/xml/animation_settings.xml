@@ -27,6 +27,7 @@
     <PreferenceScreen
         android:key="overscroll_effects"
         android:title="@string/ui_overscroll_title"
+        android:summary="@string/overscroll_weight_summary"
         android:fragment="com.android.settings.bliss.OverscrollEffects" />
 
     <ListPreference

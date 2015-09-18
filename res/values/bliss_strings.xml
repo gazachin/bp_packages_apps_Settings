@@ -651,6 +651,7 @@
     <string name="overscroll_title">Over scrolling effect</string>
     <string name="overscroll_summary">Choose how scrollable objects look when they overshoot</string>
     <string name="overscroll_weight_title">Over scrolling weight</string>
+    <string name="overscroll_weight_summary">Select the weight of the scrollable objects</string>
 
     <!-- Scrolling Animation Controls -->
     <string name="scrolling_title">Scrolling Modifiers</string>
@@ -817,7 +818,7 @@
     <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion!</string>
 
     <!-- Statusbar Bliss logo -->
-    <string name="status_bar_logo_category_title">Status bar logo</string>
+    <string name="status_bar_logo_category_title">Status Bar Logo</string>
     <string name="status_bar_bliss_logo_title">Bliss logo</string>
     <string name="status_bar_bliss_logo_summary">Enable to show Bliss logo on the left side of status bar</string>
     <string name="status_bar_bliss_logo_color">Bliss logo color</string>
@@ -1294,7 +1295,7 @@
     <string name="privacy_guard_notifiation_summary">Show a notification if privacy guard is active</string>
 
     <!-- Status bar greeting -->
-    <string name="status_bar_greeting_category_title">Status bar greeting</string>
+    <string name="status_bar_greeting_category_title">Status Bar Greeting</string>
     <string name="status_bar_greeting_title">Greeting</string>
     <string name="status_bar_greeting_summary">Display a custom greeting in the status bar after unlocking the device</string>
     <string name="status_bar_greeting_dialog">Set your greeting</string>
@@ -1302,6 +1303,7 @@
     <string name="status_bar_greeting_timeout_title">Greeting timeout</string>
 
     <!-- Show carrier label and custom -->
+    <string name="carrier_options_category_title">Customize Carrier</string>
     <string name="carrier_options">Carrier Label</string>
     <string name="show_status_bar_carrier_title">Status bar carrier</string>
     <string name="show_status_bar_carrier_summary">Show carrier in status bar</string>
